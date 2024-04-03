@@ -3,7 +3,7 @@ body {
     margin-top: 100px;
     font-family: "helvetica";
 }
-.SunCard {
+.suncard {
     background: #e9f1f7;
     color: #131b23;
     margin: 0 auto;
@@ -13,7 +13,7 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.PlanetCard {
+.planetcard {
     background: #e9f1f7;
     color: #131b23;
     margin: 0 auto;
@@ -21,9 +21,4 @@ body {
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
-
-
-
-
-
-
+}

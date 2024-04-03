@@ -1,41 +1,46 @@
 body {
-    background: #131b23;
+    background: #17594A;
     margin-top: 100px;
     font-family: "helvetica";
 }
-
-.card {
+.SunCard {
     background: #e9f1f7;
     color: #131b23;
     margin: 0 auto;
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
+    width: 175px;
+    height: 250px;
+    border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.card div {
-    padding: 20px;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+  
+ .card {
+     flex: 0 8 24%;
+ }
+.PlanetCard {
+    background: #e9f1f7;
+    color: #131b23;
+    margin: 0 auto;
+    width: 175px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 
 h1 {
     background: #2274a5;
     padding: 20px;
     margin: 0;
-    border-radius: 20px 20px 0 0;
 }
 
-#occupation{
-    font-style: italic; 
-}
 
-img {
-    float: left;
-    margin-right: 20px;
-    border: 2px solid #131b23;
-}
 
-ul {
-    text-align: left;
-    list-style-position: inside;
-}

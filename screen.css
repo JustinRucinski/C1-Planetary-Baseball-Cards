@@ -13,15 +13,6 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- }
-  
- .card {
-     flex: 0 8 24%;
- }
 .PlanetCard {
     background: #e9f1f7;
     color: #131b23;
@@ -30,17 +21,15 @@ body {
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex: 0 1 24%;
+}
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 
-h1 {
-    background: #2274a5;
-    padding: 20px;
-    margin: 0;
-}
 
 
 

@@ -6,6 +6,7 @@ body {
 
 .title{
   color: #D3D04F;
+  font-family: space grotesk;
   font-size: 40px;
   margin-left: 250px;
   margin-top: 68px;
@@ -56,6 +57,45 @@ body {
   margin-bottom: 28px;
 }
 
+h2.sun-title{
+  font-family: space grotesk;
+  font-size: 40px;
+  margin: 0px 20px;
+  color: #213363; 
+}
+
+p.sun-text{
+  font-size: 22px;
+  color: #17594A;
+  margin: 5px 0px;
+}
+
 h2.planet-title {
-  font-family: verdana;
+  font-family: space grotesk;
+  color: #213363;
+  margin: 0px 20px;
+}
+
+h2.planet-title-special {
+  font-family: space grotesk;
+  color: #213363;
+  margin: 0px 0px;
+}
+
+p.planet-text{
+  font-size: 15px;
+  color: #17594A;
+  margin: 5px 0px;
+}
+
+img.planet-image-saturn {
+  margin: 17px 0px;
+}
+
+img.planet-image-uranus {
+  margin: 22px 0px;
+}
+
+img.planet-image-neptune {
+  margin: 1px 0px;
 }
